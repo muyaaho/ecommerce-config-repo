@@ -3,9 +3,5 @@ server:
   port:
     8081
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health, info, refresh
-
+member:
+  greeting: "Hello, Default Member!"
