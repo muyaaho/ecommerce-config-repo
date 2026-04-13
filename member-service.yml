@@ -1,7 +1,6 @@
 # member-service의 모든 프로파일에 적용될 설정
 server:
-  port:
-    8081
+  port: 8081
 
 member:
   greeting: "Hello, Default Member!"
