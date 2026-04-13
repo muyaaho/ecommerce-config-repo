@@ -2,11 +2,5 @@
 server:
   port: 8081
 
-#member:
-#  greeting: "Hello, Default Member!"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health, info, refresh # 'refresh' 엔드포인트 노출 (05.04절)
+member:
+  greeting: "Hello, Default Member!"
